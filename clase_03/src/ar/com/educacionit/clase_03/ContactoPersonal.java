@@ -5,7 +5,16 @@ public class ContactoPersonal {
 	// Atributos (Caracteristas)
 	String nombre;
 	String correo;
-		
+	
+	// Constructor por defecto
+	public ContactoPersonal() {	}
+	
+	// Constructor parametrizado 
+	public ContactoPersonal(String nombre, String correo) {
+		this.nombre = nombre;
+		this.correo = correo;
+	}
+
 	// Métodos -> (Acciones) -> (Comportamiento)
 	void mostrarNombre() {
 		System.out.println("El nombre es: " + this.nombre);

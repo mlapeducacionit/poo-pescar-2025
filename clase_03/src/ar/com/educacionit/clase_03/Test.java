@@ -8,6 +8,12 @@ public class Test {
 		// syso -> Ctrl + Enter
 		System.out.println("Hola mundo desde JAVA");
 		
+		// Instanciar la clase ContactoPersonal
+		
+		ContactoPersonal cp1 = new ContactoPersonal();
+		
+		System.out.println(cp1); // los atributos van tener valores por defecto
+		
 	}
 
 }
