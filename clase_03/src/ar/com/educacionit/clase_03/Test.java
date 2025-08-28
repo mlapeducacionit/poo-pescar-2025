@@ -24,6 +24,7 @@ public class Test {
 		
 		// Visibilidad publica, al cambiar a privado dejo de poder modificar los atributos directamente
 		
+		/*
 		System.out.println(cp2.nombre);
 		cp2.nombre = "Pedro";
 		System.out.println(cp2.nombre);
@@ -31,6 +32,21 @@ public class Test {
 		System.out.println(cp2.correo);
 		cp2.correo = "pedro@gmail.com";
 		System.out.println(cp2.correo);
+		*/
+		
+		cp2.mostrarNombre();
+		
+		// Creamos otra instancia de ContactoPersonal
+		
+		ContactoPersonal cp3 = new ContactoPersonal("Roberto", "roberto@gmail.com");
+		
+		System.out.println(cp3);
+		
+		
+		
+		
+		
+		
 		
 		
 		
