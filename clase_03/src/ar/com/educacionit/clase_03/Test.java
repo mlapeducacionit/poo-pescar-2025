@@ -10,9 +10,17 @@ public class Test {
 		
 		// Instanciar la clase ContactoPersonal
 		
+		// usando el constructor por defecto
 		ContactoPersonal cp1 = new ContactoPersonal();
 		
 		System.out.println(cp1); // los atributos van tener valores por defecto
+		System.out.println(cp1.toString());
+		
+		// usando el constructor parametrizad
+		
+		ContactoPersonal cp2 = new ContactoPersonal("Maxi", "max@gmail.com");
+		System.out.println(cp2);
+		System.out.println(cp2.toString());
 		
 	}
 

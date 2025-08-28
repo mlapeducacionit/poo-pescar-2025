@@ -19,6 +19,11 @@ public class ContactoPersonal {
 	void mostrarNombre() {
 		System.out.println("El nombre es: " + this.nombre);
 	}
-	
+
+	@Override
+	public String toString() {
+		return "ContactoPersonal [nombre=" + nombre + ", correo=" + correo + "]";
+	}
+		
 	
 }
