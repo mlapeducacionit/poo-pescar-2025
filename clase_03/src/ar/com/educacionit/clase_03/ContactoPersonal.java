@@ -5,6 +5,7 @@ public class ContactoPersonal {
 	// Atributos (Caracteristas)
 	private String nombre;
 	private String correo;
+	private Direccion direccion;
 	
 	
 	// Constructor por defecto
