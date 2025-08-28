@@ -6,6 +6,7 @@ public class ContactoPersonal {
 	private String nombre;
 	private String correo;
 	
+	
 	// Constructor por defecto
 	public ContactoPersonal() {	}
 
@@ -36,9 +37,10 @@ public class ContactoPersonal {
 	public void setCorreo(String correo) {
 		
 		if (this.correo == correo) {
-			System.out.println("No podes cambiar por el mismo correo");
+			System.err.println("No podes cambiar por el mismo correo");
 		} else {
 			this.correo = correo;
+			System.out.println("Se cambio, correctamente");
 		}
 		
 	}

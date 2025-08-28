@@ -42,7 +42,12 @@ public class Test {
 		
 		System.out.println(cp3);
 		
+		System.out.println(cp3.getNombre());
+		System.out.println(cp3.getCorreo());
 		
+		cp3.setCorreo("roberto@gmail.com");
+		cp3.setCorreo("roberto-carlos@gmail.com");
+		System.out.println(cp3.getCorreo());
 		
 		
 		
