@@ -3,8 +3,8 @@ package ar.com.educacionit.clase_03;
 public class ContactoPersonal {
 
 	// Atributos (Caracteristas)
-	String nombre;
-	String correo;
+	private String nombre;
+	private String correo;
 	
 	// Constructor por defecto
 	public ContactoPersonal() {	}

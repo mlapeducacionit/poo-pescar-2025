@@ -16,11 +16,24 @@ public class Test {
 		System.out.println(cp1); // los atributos van tener valores por defecto
 		System.out.println(cp1.toString());
 		
-		// usando el constructor parametrizad
+		// usando el constructor parametrizado
 		
 		ContactoPersonal cp2 = new ContactoPersonal("Maxi", "max@gmail.com");
 		System.out.println(cp2);
 		System.out.println(cp2.toString());
+		
+		// Visibilidad publica, al cambiar a privado dejo de poder modificar los atributos directamente
+		
+		System.out.println(cp2.nombre);
+		cp2.nombre = "Pedro";
+		System.out.println(cp2.nombre);
+		
+		System.out.println(cp2.correo);
+		cp2.correo = "pedro@gmail.com";
+		System.out.println(cp2.correo);
+		
+		
+		
 		
 	}
 
