@@ -65,7 +65,9 @@ public class ContactoPersonal {
 
 	@Override
 	public String toString() {
-		return "ContactoPersonal [nombre=" + nombre + ", correo=" + correo + "]";
+		return "ContactoPersonal [nombre=" + nombre + ", correo=" + correo + ", direccion=" + direccion + "]";
 	}
+
+	
 	
 }

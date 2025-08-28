@@ -50,10 +50,16 @@ public class Test {
 		System.out.println(cp3.getCorreo());
 		
 		
+		Direccion d1 = new Direccion("Calle falsa 123", 1234, 304);
 		
+		System.out.println(cp3);
 		
+		cp3.setDireccion(d1);
 		
+		System.out.println(cp3);
 		
+		ContactoPersonal cp4 = new ContactoPersonal("Pepito", "pepito@gmail.com", 
+														new Direccion("Otra calle", 222, 333));
 		
 		
 	}
