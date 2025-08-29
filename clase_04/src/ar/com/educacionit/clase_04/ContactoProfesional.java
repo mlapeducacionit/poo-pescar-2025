@@ -14,6 +14,19 @@ public class ContactoProfesional extends Contacto {
 		this.empresa = empresa;
 	}
 
+	public String getEmpresa() {
+		return empresa;
+	}
+
+	public void setEmpresa(String empresa) {
+		this.empresa = empresa;
+	}
+
+	@Override
+	public String toString() {
+		return "ContactoProfesional [empresa=" + empresa + ", toString()=" + super.toString() + "]";
+	}
+
 	
 	
 	

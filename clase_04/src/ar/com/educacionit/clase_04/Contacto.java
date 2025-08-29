@@ -7,6 +7,10 @@ public class Contacto {
 	private String correo;
 	private Direccion direccion;
 	
+	// Contacto por defecto
+	public Contacto() { }
+	
+	// C parametrizado
 	public Contacto(String nombre, String correo, Direccion direccion) {
 		this.nombre = nombre;
 		this.correo = correo;
@@ -35,6 +39,11 @@ public class Contacto {
 
 	public void setDireccion(Direccion direccion) {
 		this.direccion = direccion;
+	}
+
+	@Override
+	public String toString() {
+		return "Contacto [nombre=" + nombre + ", correo=" + correo + ", direccion=" + direccion + "]";
 	}
 	
 	
