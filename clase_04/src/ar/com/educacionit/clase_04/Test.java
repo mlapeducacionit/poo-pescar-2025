@@ -15,6 +15,9 @@ public class Test {
 
 		System.out.println(cprofesional);
 		
+		cpersonal.mostrarInformacion();
+		cprofesional.mostrarInformacion();
+				
 	}
 
 }

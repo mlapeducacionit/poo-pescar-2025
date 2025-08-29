@@ -27,6 +27,15 @@ public class ContactoProfesional extends Contacto {
 		return "ContactoProfesional [" + super.toString() + " empresa=" + empresa + "]";
 	}
 
+	@Override
+	public void mostrarInformacion() {
+		System.out.println("Soy un contacto Profesional");
+		System.out.println("Nombre: " + super.getNombre());
+		System.out.println("Empresa: " + this.getEmpresa());
+	}
+	
+	
+
 	
 	
 	

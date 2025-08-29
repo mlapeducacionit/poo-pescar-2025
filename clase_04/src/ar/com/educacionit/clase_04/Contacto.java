@@ -1,7 +1,9 @@
 package ar.com.educacionit.clase_04;
 
-// Superclase
-public class Contacto {
+// Superclase 
+// Al colocarle un abstract a la superclase genero una restricción sobre esta clase. No se va a poder instanciar directemente
+// Voy usar Contacto a través de las clases ContactoPersonal y ContactoProfesional.
+public abstract class Contacto {
 	
 	private String nombre;
 	private String correo;
@@ -44,6 +46,11 @@ public class Contacto {
 	@Override
 	public String toString() {
 		return "Contacto [nombre=" + nombre + ", correo=" + correo + ", direccion=" + direccion + "]";
+	}
+	
+	
+	public void mostrarInformacion() {
+		System.out.println("Soy un contacto");
 	}
 	
 	
