@@ -24,7 +24,7 @@ public class ContactoProfesional extends Contacto {
 
 	@Override
 	public String toString() {
-		return "ContactoProfesional [empresa=" + empresa + ", toString()=" + super.toString() + "]";
+		return "ContactoProfesional [" + super.toString() + " empresa=" + empresa + "]";
 	}
 
 	

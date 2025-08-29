@@ -19,7 +19,19 @@ public class ContactoPersonal extends Contacto {
 		super(nombre, correo, direccion);
 		this.fechaCumple = fechaCumple;
 	}
+	public String getFechaCumple() {
+		return fechaCumple;
+	}
+	public void setFechaCumple(String fechaCumple) {
+		this.fechaCumple = fechaCumple;
+	}
+	
+	@Override
+	public String toString() {
+		return "ContactoPersonal [" + super.toString() + " fechaCumple=" + fechaCumple + "]";
+	}
 
+	
 	
 	
 	
