@@ -17,6 +17,14 @@ public class Test {
 		
 		cpersonal.mostrarInformacion();
 		cprofesional.mostrarInformacion();
+		
+		Agenda a = new Agenda();
+		
+		a.agregarContacto(cpersonal); // [cprofesional, cpersonal]
+		a.agregarContacto(cprofesional); // [cprofesional]
+		
+		
+		a.mostrarAgenda();
 				
 	}
 

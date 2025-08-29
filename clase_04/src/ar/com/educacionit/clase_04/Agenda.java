@@ -17,6 +17,8 @@ public class Agenda {
 	
 	 public void mostrarAgenda() {
         System.out.println("\n Agenda:");
+
+        
         for (Contacto p : contactos) {
             p.mostrarInformacion();
         }
